@@ -1,0 +1,5 @@
+import math
+raio = float(input("Digite o raio da circunferência"))
+perimetro = 2 * math.pi * raio
+print("Circulo de raio %3d tem o perímetro de %4d" % (raio, perimetro))
+print("Circulo de raio " + str(raio) + " tem o perímetro de " + str(perimetro))
