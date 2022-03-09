@@ -1,0 +1,8 @@
+name = input("Nome do produto:\n")
+qt = int(input("Quantidade do produto:\n"))
+price = float(input("Valor do produto:\n"))
+discount = float(input("Percentual do desconto\n"))
+saleValue = (qt * price)
+saleValue = saleValue - (saleValue * (discount / 100))
+print("Produto: " + name)
+print("Valor da venda: " + str(saleValue))
